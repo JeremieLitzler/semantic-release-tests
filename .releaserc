@@ -21,10 +21,6 @@
           {
             "type": "refactor",
             "release": "patch"
-          },
-          {
-            "type": "perf",
-            "release": "patch"
           }
         ],
         "parserOpts": {
@@ -52,10 +48,6 @@
             {
               "type": "docs",
               "section": "Others"
-            },
-            {
-              "type": "perf",
-              "section": "Performances"
             },
             {
               "type": "refactor",
