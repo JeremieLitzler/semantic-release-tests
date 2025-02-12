@@ -1,0 +1,27 @@
+{
+  "name": "semantic-release-tests",
+  "version": "1.0.0",
+  "description": "This repo simply taught me when semantic release decides to create a new release or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremieLitzler/semantic-release-tests.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "Jeremie Litzler",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JeremieLitzler/semantic-release-tests/issues"
+  },
+  "homepage": "https://github.com/JeremieLitzler/semantic-release-tests#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^24.2.2"
+  }
+}
