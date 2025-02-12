@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/JeremieLitzler/semantic-release-tests/compare/v1.0.3...v1.0.4) (2025-02-12)
+
+### Others
+
+* clearify release-notes-generator custom config ([#2](https://github.com/JeremieLitzler/semantic-release-tests/issues/2)) ([221e320](https://github.com/JeremieLitzler/semantic-release-tests/commit/221e320ab99c94220d864184eb77d9d02baf1ec9))
+
 ## [1.0.3](https://github.com/JeremieLitzler/semantic-release-tests/compare/v1.0.2...v1.0.3) (2025-02-12)
 
 ## [1.0.2](https://github.com/JeremieLitzler/semantic-release-tests/compare/v1.0.1...v1.0.2) (2025-02-12)
