@@ -4,6 +4,7 @@ It works with conventional commits. But semantic release doesn't create new rele
 
 - `docs`
 - `test`
+- `refactor`
 
 So I added them to the `releaseRules` on this repo:
 
@@ -15,6 +16,10 @@ So I added them to the `releaseRules` on this repo:
           },
           {
             "type": "test",
+            "release": "patch"
+          },
+          {
+            "type": "refactor",
             "release": "patch"
           }
         ],
@@ -40,10 +45,6 @@ Following this, we also need to add the `release-notes-generator` configuration:
         {
           "type": "docs",
           "section": "Others"
-        },
-        {
-          "type": "perf",
-          "section": "Performances"
         },
         {
           "type": "refactor",
