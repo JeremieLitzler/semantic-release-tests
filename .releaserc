@@ -17,6 +17,14 @@
           {
             "type": "test",
             "release": "patch"
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "perf",
+            "release": "patch"
           }
         ],
         "parserOpts": {
@@ -42,28 +50,28 @@
               "section": "Bug Fixes"
             },
             {
-              "type": "chore",
-              "hidden": true
-            },
-            {
               "type": "docs",
               "section": "Others"
             },
             {
-              "type": "style",
-              "hidden": true
+              "type": "perf",
+              "section": "Performances"
             },
             {
               "type": "refactor",
               "section": "Others"
             },
             {
-              "type": "perf",
+              "type": "test",
               "section": "Others"
             },
             {
-              "type": "test",
-              "section": "Others"
+              "type": "chore",
+              "hidden": true
+            },
+            {
+              "type": "style",
+              "hidden": true
             }
           ]
         }
