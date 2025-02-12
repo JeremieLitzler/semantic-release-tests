@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/JeremieLitzler/semantic-release-tests/compare/v1.0.0...v1.0.1) (2025-02-12)
+
+
+### Bug Fixes
+
+* update page title ([#3](https://github.com/JeremieLitzler/semantic-release-tests/issues/3)) ([ab266be](https://github.com/JeremieLitzler/semantic-release-tests/commit/ab266be3271019442b08bece1fdd538b10e2c395))
+
 # 1.0.0 (2025-02-12)
 
 
