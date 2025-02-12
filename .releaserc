@@ -13,6 +13,10 @@
           {
             "type": "docs",
             "release": "patch"
+          },
+          {
+            "type": "test",
+            "release": "patch"
           }
         ],
         "parserOpts": {
