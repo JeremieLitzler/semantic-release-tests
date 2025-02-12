@@ -4,4 +4,13 @@ It works with conventional commits. But semantic release doesn't create new rele
 
 - `docs`
 
-So I added them to the `releaseRules` on this repo.
+So I added them to the `releaseRules` on this repo:
+
+```json
+        "releaseRules": [
+          {
+            "type": "docs",
+            "release": "patch"
+          }
+        ],
+```
