@@ -23,48 +23,46 @@ So I added them to the `releaseRules` on this repo:
 Following this, we also need to add the `release-notes-generator` configuration:
 
 ```json
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        "preset": "conventionalcommits",
-        //REQUIRED ⬇️ because of [the comment at the bottom of the package docs](https://github.com/semantic-release/release-notes-generator?tab=readme-ov-file#configuration)
-        "presetConfig": {
-          "types": [
-            {
-              "type": "feat",
-              "section": "Features"
-            },
-            {
-              "type": "fix",
-              "section": "Bug Fixes"
-            },
-            {
-              "type": "chore",
-              "hidden": true
-            },
-            {
-              "type": "docs",
-              "section": "Others"
-            },
-            {
-              "type": "style",
-              "hidden": true
-            },
-            {
-              "type": "refactor",
-              "section": "Others"
-            },
-            {
-              "type": "perf",
-              "section": "Others"
-            },
-            {
-              "type": "test",
-              "section": "Others"
-            }
-          ]
+[
+  "@semantic-release/release-notes-generator",
+  {
+    "preset": "conventionalcommits",
+    "presetConfig": {
+      "types": [
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {
+          "type": "docs",
+          "section": "Others"
+        },
+        {
+          "type": "perf",
+          "section": "Performances"
+        },
+        {
+          "type": "refactor",
+          "section": "Others"
+        },
+        {
+          "type": "test",
+          "section": "Others"
+        },
+        {
+          "type": "chore",
+          "hidden": true
+        },
+        {
+          "type": "style",
+          "hidden": true
         }
-      }
-    ],
-
+      ]
+    }
+  }
+]
 ```
