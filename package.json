@@ -4,7 +4,7 @@
   "description": "This repo simply taught me when semantic release decides to create a new release or not.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Success: all tests OK\""
+    "test": "echo \"Success: all tests OK ✅\""
   },
   "repository": {
     "type": "git",
