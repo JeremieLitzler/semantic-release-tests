@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/JeremieLitzler/semantic-release-tests/compare/v2.0.0...v2.0.1) (2025-02-12)
+
+### Others
+
+* update README.md ([dff9357](https://github.com/JeremieLitzler/semantic-release-tests/commit/dff935791c3d848a1bda22188458f6b7e8d4bd93))
+
 ## [2.0.0](https://github.com/JeremieLitzler/semantic-release-tests/compare/v1.0.4...v2.0.0) (2025-02-12)
 
 ### ⚠ BREAKING CHANGES
