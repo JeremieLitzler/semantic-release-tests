@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/JeremieLitzler/semantic-release-tests/compare/v2.0.1...v2.0.2) (2025-02-19)
+
+### Features
+
+* edit title in index.html ([765d854](https://github.com/JeremieLitzler/semantic-release-tests/commit/765d854794d5560eb392e285308902066f7f0f69))
+
 ## [2.0.1](https://github.com/JeremieLitzler/semantic-release-tests/compare/v2.0.0...v2.0.1) (2025-02-12)
 
 ### Others
