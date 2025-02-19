@@ -11,6 +11,10 @@
         "preset": "conventionalcommits",
         "releaseRules": [
           {
+            "breaking": true,
+            "release": "patch"
+          },
+          {
             "type": "feat",
             "release": "patch"
           },
