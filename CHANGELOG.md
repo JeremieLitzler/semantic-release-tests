@@ -1,3 +1,9 @@
+## [2.0.3](https://github.com/JeremieLitzler/semantic-release-tests/compare/v2.0.2...v2.0.3) (2025-02-19)
+
+### Features
+
+* BREAKING CHANGE: test new release config ([efab7a0](https://github.com/JeremieLitzler/semantic-release-tests/commit/efab7a0679acb1ff608c06eb7ccea24adae89828))
+
 ## [2.0.2](https://github.com/JeremieLitzler/semantic-release-tests/compare/v2.0.1...v2.0.2) (2025-02-19)
 
 ### Features
